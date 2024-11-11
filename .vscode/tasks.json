@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Lock requirmenets",
+        "type": "shell",
+        "command": "pip-compile --generate-hashes --output-file=requirements.lock --allow-unsafe",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
