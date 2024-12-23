@@ -2,7 +2,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Initialize the bot
-bot = telebot.TeleBot("8163594322:AAGQWjn4L0ozGMs0z6IEhwDuhBiUiVBj6yo")
+bot = telebot.TeleBot("YOUR TOKEN HERE")
 
 
 # Welcome message when the user starts the bot
